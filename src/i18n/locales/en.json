@@ -1,0 +1,558 @@
+{
+    "app": {
+        "name": "Aura Square",
+        "tagline": "Fill. Clear. Win."
+    },
+    "nav": {
+        "home": "Home",
+        "daily": "Daily",
+        "leaderboard": "Leaderboard",
+        "profile": "Profile",
+        "settings": "Settings",
+        "achievements": "Achievements",
+        "statistics": "Statistics",
+        "language": "Language"
+    },
+    "auth": {
+        "welcome": "Welcome to Aura Square",
+        "subtitle": "Sign in to save your progress and compete globally.",
+        "sign_in_google": "Continue with Google",
+        "continue_guest": "Continue as Guest",
+        "guest_warning": "Guest progress is saved locally only.",
+        "signing_in": "Signing in…",
+        "sign_out": "Sign Out",
+        "sign_out_confirm": "Are you sure you want to sign out?",
+        "upgrade_prompt": "Create an account to sync your progress",
+        "upgrade_action": "Connect Google Account",
+        "already_signed_in": "You are signed in as {{name}}",
+        "anonymous_user": "Guest Player",
+        "error_generic": "Sign-in failed. Please try again.",
+        "error_network": "Network error. Check your connection.",
+        "error_popup": "Popup was blocked. Redirecting…"
+    },
+    "home": {
+        "title": "Home",
+        "quick_play": "Quick Play",
+        "daily_challenge": "Daily Challenge",
+        "daily_desc": "New puzzle every day",
+        "leaderboard": "Leaderboard",
+        "your_best": "Your Best",
+        "play_count": "Games Played",
+        "no_score": "No score yet — play a game!",
+        "streak_suffix": "days",
+        "current_score": "Current score: {{score}} pts",
+        "play_offline_hint": "Play right away — no login",
+        "new_game_cta": "Start New Game",
+        "stat_best": "Best",
+        "stat_played": "Played",
+        "stat_average": "Average",
+        "achievements_progress": "{{count}} / {{total}} Achievements",
+        "percent_done": "{{pct}}% done",
+        "quick_achievements": "Achievements",
+        "quick_leaderboard": "Leaderboard",
+        "quick_statistics": "Statistics",
+        "quick_settings": "Settings",
+        "quick_best_score": "Best score",
+        "quick_n_games": "{{count}} games",
+        "quick_theme_lang": "Theme & Language"
+    },
+    "settings": {
+        "title": "Settings",
+        "appearance": "Appearance",
+        "theme": "Theme",
+        "theme_dark": "Dark",
+        "theme_light": "Light",
+        "theme_system": "System",
+        "language": "Language",
+        "lang_en": "English",
+        "lang_id": "Indonesian",
+        "audio": "Audio",
+        "sound_effects": "Sound Effects",
+        "music": "Background Music",
+        "account": "Account",
+        "notifications": "Notifications",
+        "about": "About",
+        "version": "Version",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "vibration": "Vibration",
+        "reduced_motion": "Reduce Animations",
+        "language_app": "App Language",
+        "profile_section": "Profile",
+        "edit_name_avatar": "Edit name & avatar →",
+        "data_section": "Data",
+        "data_note": "All data is stored locally on this device. No server, no account.",
+        "clear_data": "Clear all data & history",
+        "clear_data_confirm": "Clear all data?",
+        "clear_data_warning": "History, statistics, and achievements will be permanently deleted.",
+        "footer": "Aura Square v3.0 · Offline-First · MIT License",
+        "accessibility_section": "Accessibility",
+        "reduced_motion_desc": "Reduces particles, shockwaves, and other large motion animations. Also activates automatically if your device already has a reduced-motion preference set.",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "title_main": "Settings",
+        "backup_export": "Save Backup",
+        "backup_export_desc": "Download all your progress, scores, and achievements as a file. Keep it somewhere safe.",
+        "backup_import": "Restore from Backup",
+        "backup_import_desc": "Have a backup file? Restore your progress from it.",
+        "backup_choose_file": "Choose Backup File",
+        "backup_confirm_title": "Restore this data?",
+        "backup_confirm_warning": "Your current data will be REPLACED with the backup file contents. This cannot be undone.",
+        "backup_preview_best": "Best score",
+        "backup_preview_games": "Total games",
+        "backup_preview_name": "Player name",
+        "backup_preview_date": "Backup date",
+        "backup_restore_cta": "Yes, Restore",
+        "backup_success": "Data restored successfully! Reloading...",
+        "backup_error_invalid": "This isn't a valid Aura Square backup file.",
+        "backup_error_read": "Failed to read the file. Make sure it isn't corrupted.",
+        "backup_exported_toast": "Backup downloaded!",
+        "install_section": "Install App",
+        "install_title": "Install Aura Square",
+        "install_desc": "Play faster and smoother — install it as an app on your device, no browser needed.",
+        "install_cta": "Install Now",
+        "install_installed": "Already installed",
+        "install_ios_title": "How to install on iPhone/iPad",
+        "install_ios_step1": "1. Tap the Share icon in Safari",
+        "install_ios_step2": "2. Choose \"Add to Home Screen\"",
+        "install_ios_step3": "3. Tap \"Add\" in the top-right corner",
+        "install_dismissed": "You can install anytime from here."
+    },
+    "profile": {
+        "title": "Profile",
+        "edit": "Edit Profile",
+        "display_name": "Display Name",
+        "stats": "Statistics",
+        "best_score": "Best Score",
+        "total_games": "Total Games",
+        "avg_score": "Average Score",
+        "achievements": "Achievements",
+        "history": "Game History",
+        "no_history": "No games played yet.",
+        "no_login_badge": "No Login",
+        "local_data_badge": "Local Data",
+        "stats_section": "Game Statistics",
+        "lines_cleared": "Lines Cleared",
+        "pieces_placed_total": "Total Pieces Placed",
+        "achievements_section": "Achievements",
+        "unlocked_of": "{{count}} / {{total}} unlocked",
+        "points": "points",
+        "badge_collection": "Badge Collection",
+        "local_data_title": "Profile Stored Locally",
+        "local_data_desc": "All data is stored on this device using localStorage. No server, no account needed. Change your name or avatar anytime!"
+    },
+    "game": {
+        "score": "Score",
+        "best": "Best",
+        "pause": "Pause",
+        "resume": "Resume",
+        "restart": "New Game",
+        "game_over": "Game Over",
+        "no_moves": "No more moves!",
+        "play_again": "Play Again",
+        "new_best": "New Record! 🏆",
+        "combo": "Combo!",
+        "double": "Double!",
+        "triple": "Triple!",
+        "quad": "Quad!",
+        "hint": "Hint",
+        "hint_used": "Hint used",
+        "hint_empty": "No hints left this game",
+        "hint_none_found": "No moves left",
+        "share": "Share Score",
+        "share_generating": "Creating score card...",
+        "share_downloaded": "Image downloaded & text copied!",
+        "share_error": "Failed to share. Try again.",
+        "share_caption": "I just scored {{score}} in Aura Square! Think you can beat me?",
+        "vs_average_above": "{{pct}}% above your average",
+        "vs_average_below": "{{pct}}% below your average",
+        "vs_average_same": "Same as your average",
+        "first_game_note": "Your first game!"
+    },
+    "daily": {
+        "title": "Daily Challenge",
+        "today": "Today's Challenge",
+        "completed": "Challenge Completed!",
+        "streak": "Day Streak",
+        "next_in": "Next challenge in {{time}}",
+        "objectives": "Bonus Objectives",
+        "rank_gold": "Gold",
+        "rank_silver": "Silver",
+        "rank_bronze": "Bronze",
+        "mission_board": "Daily Missions",
+        "target_score": "Target Score",
+        "last_7_days": "Last 7 Days",
+        "start_challenge": "Start Challenge",
+        "today_done": "Completed today",
+        "next_available": "A new challenge is available every day!",
+        "streak_days": "{{count}}-Day Streak!",
+        "streak_keep": "Keep your streak going every day",
+        "challenge_today": "Today's Challenge",
+        "same_pieces": "Same pieces for every player!",
+        "unique_sequence": "Every day has a unique piece sequence. Show your skill!",
+        "changes_in": "Changes in {{time}}",
+        "done_label": "Done",
+        "challenge_done_today": "Today's challenge complete!",
+        "view_leaderboard": "View Leaderboard →"
+    },
+    "leaderboard": {
+        "title": "Leaderboard",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "all_time": "All Time",
+        "your_rank": "Your Rank",
+        "no_rank": "Not ranked yet",
+        "loading": "Loading scores…",
+        "empty": "No scores yet. Be the first!",
+        "page_title": "Leaderboard",
+        "subtitle_online": "Online & your personal score",
+        "subtitle_offline": "Your personal score",
+        "your_best": "Your Best Record",
+        "daily_today": "Today's Daily",
+        "tab_personal": "Personal",
+        "tab_daily_online": "Daily Online",
+        "tab_global": "Global",
+        "no_score_yet": "No scores yet",
+        "no_online_score": "No online scores yet.",
+        "play_daily_hint": "Play the daily challenge to show up here!",
+        "firebase_required": "Firebase Required",
+        "firebase_desc": "Online leaderboard requires a valid Firebase config in",
+        "firebase_demo_note": "Currently using demo values.",
+        "load_error": "Failed to load online data.",
+        "row_sub": "{{pieces}} pieces · {{dur}}"
+    },
+    "common": {
+        "loading": "Loading…",
+        "error": "Something went wrong.",
+        "retry": "Try Again",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "save": "Save",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "done": "Done",
+        "yes": "Yes",
+        "no": "No",
+        "coming_soon": "Coming Soon",
+        "play_now": "Play Now",
+        "new_game": "New Game",
+        "continue_game": "Continue Game",
+        "greeting_morning": "Good Morning",
+        "greeting_afternoon": "Good Afternoon",
+        "greeting_evening": "Good Evening",
+        "greeting_night": "Good Night",
+        "about": "About",
+        "play_short": "Play",
+        "offline_notice": "You're offline — your local data is safe",
+        "pwa_update_title": "New version available",
+        "pwa_update_desc": "Refresh to update.",
+        "pwa_offline_title": "Ready to use offline",
+        "pwa_offline_desc": "Aura Square can now be played without internet.",
+        "refresh": "Refresh",
+        "later": "Later",
+        "ok": "OK"
+    },
+    "achievements": {
+        "items": {
+            "score_50": {
+                "title": "First Steps",
+                "description": "Reach a score of 50 for the first time"
+            },
+            "score_100": {
+                "title": "Century!",
+                "description": "Reach a score of 100"
+            },
+            "score_250": {
+                "title": "Soaring",
+                "description": "Reach a score of 250"
+            },
+            "score_500": {
+                "title": "Fighter",
+                "description": "Reach a score of 500"
+            },
+            "score_1000": {
+                "title": "Champion",
+                "description": "Reach a score of 1,000"
+            },
+            "score_2500": {
+                "title": "Legend",
+                "description": "Reach a score of 2,500"
+            },
+            "score_5000": {
+                "title": "Unrivaled",
+                "description": "Reach a score of 5,000"
+            },
+            "games_1": {
+                "title": "First Game",
+                "description": "Complete 1 game"
+            },
+            "games_5": {
+                "title": "Persistence",
+                "description": "Play 5 games"
+            },
+            "games_10": {
+                "title": "Fighter",
+                "description": "Play 10 games"
+            },
+            "games_25": {
+                "title": "Veteran",
+                "description": "Play 25 games"
+            },
+            "games_50": {
+                "title": "Master",
+                "description": "Play 50 games"
+            },
+            "lines_10": {
+                "title": "Tidy Up",
+                "description": "Clear 10 lines"
+            },
+            "lines_50": {
+                "title": "Clean Sweep",
+                "description": "Clear 50 lines"
+            },
+            "lines_100": {
+                "title": "Exterminator",
+                "description": "Clear 100 lines"
+            },
+            "lines_250": {
+                "title": "Annihilator",
+                "description": "Clear 250 lines"
+            },
+            "combo_double": {
+                "title": "Double!",
+                "description": "Clear 2 lines at once"
+            },
+            "combo_triple": {
+                "title": "Triple!",
+                "description": "Clear 3 lines at once"
+            },
+            "combo_quad": {
+                "title": "Quad!",
+                "description": "Clear 4 lines at once"
+            },
+            "pieces_100": {
+                "title": "Precision Placement",
+                "description": "Place 100 pieces"
+            },
+            "pieces_500": {
+                "title": "Hard Worker",
+                "description": "Place 500 pieces"
+            },
+            "pieces_1000": {
+                "title": "Workhorse",
+                "description": "Place 1,000 pieces"
+            },
+            "session_3min": {
+                "title": "Long Session",
+                "description": "Play for more than 3 minutes in one session"
+            },
+            "session_5min": {
+                "title": "Marathon",
+                "description": "Play for more than 5 minutes in one session"
+            },
+            "daily_first": {
+                "title": "First Challenge",
+                "description": "Complete 1 Daily Challenge"
+            },
+            "daily_streak_3": {
+                "title": "Consistent",
+                "description": "Reach a 3-day daily streak"
+            },
+            "daily_streak_7": {
+                "title": "Weekly Warrior",
+                "description": "Reach a 7-day daily streak"
+            },
+            "weekly_first": {
+                "title": "Weekly Conqueror",
+                "description": "Complete 1 Weekly Challenge"
+            },
+            "level_10": {
+                "title": "Leveling Up",
+                "description": "Reach Level 10"
+            },
+            "level_50": {
+                "title": "Halfway There",
+                "description": "Reach Level 50"
+            },
+            "level_100": {
+                "title": "Maxed Out",
+                "description": "Reach Level 100 — the highest level"
+            },
+            "rank_grandmaster": {
+                "title": "Grandmaster",
+                "description": "Reach Grandmaster rank — the toughest achievement"
+            }
+        },
+        "categories": {
+            "all": "All",
+            "score": "Score",
+            "games": "Games",
+            "lines": "Lines",
+            "combo": "Combo",
+            "special": "Special",
+            "daily": "Daily",
+            "mastery": "Mastery"
+        },
+        "page_title": "Achievements",
+        "unlocked_count": "{{count}} / {{total}} unlocked",
+        "points_total": "of {{total}} total points",
+        "percent_complete": "complete"
+    },
+    "titles": {
+        "pemula": "Beginner",
+        "penjelajah": "Explorer",
+        "ahli_strategi": "Strategist",
+        "veteran": "Veteran",
+        "master_blok": "Block Master",
+        "legenda_aura": "Aura Legend",
+        "sang_juara": "The Champion",
+        "penakluk": "Conqueror",
+        "grandmaster_sejati": "True Grandmaster",
+        "raja_combo": "Combo King",
+        "kolektor": "Collector"
+    },
+    "badges": {
+        "rank_bronze": {
+            "label": "Bronze Badge",
+            "desc": "Reach Bronze rank"
+        },
+        "rank_silver": {
+            "label": "Silver Badge",
+            "desc": "Reach Silver rank"
+        },
+        "rank_gold": {
+            "label": "Gold Badge",
+            "desc": "Reach Gold rank"
+        },
+        "rank_platinum": {
+            "label": "Platinum Badge",
+            "desc": "Reach Platinum rank"
+        },
+        "rank_diamond": {
+            "label": "Diamond Badge",
+            "desc": "Reach Diamond rank"
+        },
+        "rank_master": {
+            "label": "Master Badge",
+            "desc": "Reach Master rank"
+        },
+        "rank_grandmaster": {
+            "label": "Grandmaster Badge",
+            "desc": "Reach Grandmaster rank"
+        },
+        "theme_explorer": {
+            "label": "Theme Explorer",
+            "desc": "Try all three Aura themes"
+        },
+        "streak_master": {
+            "label": "Streak Master",
+            "desc": "Reach a 7-day daily streak"
+        },
+        "perfect_clear": {
+            "label": "Perfect Clearer",
+            "desc": "Land a Quad combo (4 lines at once)"
+        }
+    },
+    "missions": {
+        "play_2": "Play 2 games",
+        "play_3": "Play 3 games",
+        "play_5": "Play 5 games",
+        "score_100": "Score 100 in 1 game",
+        "score_200": "Score 200 in 1 game",
+        "score_350": "Score 350 in 1 game",
+        "lines_10": "Clear 10 lines",
+        "lines_20": "Clear 20 lines",
+        "lines_40": "Clear 40 lines",
+        "combo_2": "Land a Double combo",
+        "combo_3": "Land a Triple combo",
+        "combo_4": "Land a Quad combo",
+        "pieces_30": "Place 30 pieces",
+        "pieces_60": "Place 60 pieces",
+        "pieces_100": "Place 100 pieces",
+        "section_title": "Daily Missions",
+        "all_done_title": "All missions complete!",
+        "all_done_claimed": "Chest bonus +75 XP already earned today",
+        "all_done_pending": "Chest bonus will be added automatically",
+        "bonus_chest": "Chest bonus +75 XP",
+        "completed_label": "Mission complete"
+    },
+    "weekly": {
+        "section_title": "Weekly Challenge",
+        "bigger_reward": "Bigger Reward",
+        "one_chance": "One chance, valid for a week",
+        "desc": "Resets every Monday. Higher scores, much bigger XP than daily.",
+        "cta": "Start Weekly Challenge",
+        "changes_in": "Changes in {{time}}",
+        "completed_this_week": "Completed this week · {{time}} left",
+        "target_title": "Target Score",
+        "rank_bronze": "Bronze",
+        "rank_silver": "Silver",
+        "rank_gold": "Gold",
+        "rank_platinum": "Platinum"
+    },
+    "theme": {
+        "section_title": "Theme",
+        "dark_aura": "Dark Aura",
+        "light_aura": "Light Aura",
+        "green_aura": "Green Aura",
+        "autosave_note": "Theme is saved automatically on this device."
+    },
+    "player_card": {
+        "level": "LEVEL",
+        "xp": "XP",
+        "max_level": "Max Level!",
+        "rank_progress_to": "Towards {{rank}}"
+    },
+    "ranks": {
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum",
+        "diamond": "Diamond",
+        "master": "Master",
+        "grandmaster": "Grandmaster"
+    },
+    "statistics": {
+        "page_title": "Statistics",
+        "games_recorded": "{{count}} games recorded",
+        "best_record": "Best Record",
+        "average": "Average",
+        "total_game": "Total Games",
+        "lines_cleared": "Lines Cleared",
+        "score_trend": "Score Trend (last 30 games)",
+        "win_streak": "Win Streak",
+        "streak_days_label": "Day Streak",
+        "streak_record": "Best Streak",
+        "streak_session": "Session Streak",
+        "favorite_piece": "Favorite Piece",
+        "shape_label": "Shape #{{num}}",
+        "placed_count": "Placed {{placedCount}} times",
+        "pieces_placed_total": "Total Pieces Placed",
+        "recent_history": "Recent History",
+        "clear_all": "Clear all",
+        "clear_confirm": "Clear all statistics history?",
+        "history_row": "{{pieces}} pieces · {{lines}} lines · {{dur}}"
+    },
+    "about": {
+        "page_title": "About",
+        "tagline": "Fill. Clear. Win.",
+        "version_label": "Version {{version}}",
+        "description": "Aura Square is a premium, offline-first block puzzle game with no login required. Play instantly — all data stays local on your device.",
+        "features_title": "Features",
+        "feature_zero_login": "No login, instant play",
+        "feature_offline": "Offline-first — installable like a native app",
+        "feature_daily": "Daily & Weekly Challenges",
+        "feature_achievements": "{{count}} Achievements across 7 categories",
+        "feature_missions": "Daily Missions with XP rewards",
+        "feature_progression": "Level, Rank, Title & Badge systems",
+        "feature_themes": "3 visual themes: Dark, Light, Green Aura",
+        "feature_a11y": "Reduced motion & vibration support",
+        "credits_title": "Credits",
+        "engine_credit": "Game engine inspired by",
+        "made_by": "Made by",
+        "license": "MIT License",
+        "privacy_title": "Privacy",
+        "privacy_desc": "Aura Square collects no personal data whatsoever. All stats, achievements, and preferences are stored only in your device's localStorage."
+    }
+}
