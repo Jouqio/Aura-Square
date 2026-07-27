@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0,
+             maximum-scale=1.0, user-scalable=no,
+             viewport-fit=cover"/>
+
+  <!-- Primary Meta -->
+  <title>Aura Square — Isi. Sapu. Menang.</title>
+  <meta name="description"
+    content="Game puzzle block yang bisa langsung dimainkan. Tanpa login, tanpa akun. Seret potongan, penuhkan baris, raih skor tertinggi!"/>
+  <meta name="theme-color" content="#0B0C14"/>
+  <meta name="color-scheme" content="dark light"/>
+  <meta name="robots" content="index, follow"/>
+
+  <!-- Open Graph -->
+  <!-- IMPORTANT: og:image / twitter:image need an ABSOLUTE URL to
+       work reliably across social platforms' link-preview scrapers
+       (relative URLs are unreliable). Replace "aurasquare.app" below
+       with your actual deployed domain once you have one. -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:title"       content="Aura Square — Isi. Sapu. Menang."/>
+  <meta property="og:description" content="Game puzzle block premium. Tanpa login, langsung main — offline-first, bisa di-install seperti aplikasi native."/>
+  <meta property="og:image"       content="https://aurasquare.app/og-image.png"/>
+  <meta property="og:image:width"  content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt"   content="Aura Square — game puzzle block premium"/>
+  <meta property="og:locale"      content="id_ID"/>
+
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       content="Aura Square — Isi. Sapu. Menang."/>
+  <meta name="twitter:description" content="Game puzzle block premium. Tanpa login, langsung main!"/>
+  <meta name="twitter:image"       content="https://aurasquare.app/og-image.png"/>
+
+  <!-- PWA -->
+  <!-- PWA manifest is auto-injected by VitePWA at build time
+       (vite.config.ts) — do NOT add a manual <link rel="manifest">
+       here, it previously caused two conflicting manifest links
+       pointing at different (and divergent) data. -->
+  <link rel="icon"                 href="/favicon.svg" type="image/svg+xml"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png"/>
+  <link rel="mask-icon" href="/icons/mask-icon.svg" color="#7c3aed"/>
+
+  <!-- Apple touch icons — iOS auto-applies its own corner rounding,
+       so these come from the full-bleed safe-zone source, never the
+       pre-rounded "any" icon. -->
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"/>
+  <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120.png"/>
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152.png"/>
+  <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-touch-icon-167.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png"/>
+  <meta name="mobile-web-app-capable"       content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title"   content="Aura Square"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"/>
+
+  <!-- Splash screen warna sama dengan app background -->
+  <style>
+    body { background-color: #0B0C14; }
+    #splash {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; align-items: center; justify-content: center;
+      background: #0B0C14;
+      transition: opacity 0.4s ease;
+    }
+    #splash.hidden { opacity: 0; pointer-events: none; }
+    #splash-logo {
+      width: 72px; height: 72px; border-radius: 20px;
+      background: linear-gradient(135deg, #5b21d4, #9333ea);
+      display: flex; align-items: center; justify-content: center;
+      font-family: Arial Black, sans-serif;
+      font-size: 40px; font-weight: 900; color: white;
+      box-shadow: 0 0 40px rgba(108,58,237,0.6);
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 0 20px rgba(108,58,237,0.4); }
+      50%      { box-shadow: 0 0 50px rgba(108,58,237,0.8); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Splash screen (hilang setelah React mount) -->
+  <div id="splash">
+    <div id="splash-logo">A</div>
+  </div>
+
+  <!-- React root -->
+  <div id="root"></div>
+
+  <!-- Hapus splash setelah 1.5 detik atau saat React siap -->
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const s = document.getElementById('splash');
+        if (s) {
+          s.classList.add('hidden');
+          setTimeout(() => s.remove(), 450);
+        }
+      }, 800);
+    });
+  </script>
+
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
