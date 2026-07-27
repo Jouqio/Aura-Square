@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+.firebase/
+.DS_Store
+Thumbs.db
+
+# Capacitor native build artifacts (ios/ and android/ project
+# source itself should stay tracked once you run `npx cap add` —
+# only their generated build output is ignored here).
+ios/App/Pods/
+ios/App/build/
+ios/App/output/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
