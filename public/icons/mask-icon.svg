@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Safari mask-icon: must be a single-color silhouette.
+       Safari recolors this using the page's theme-color / the
+       pinned-tab color the user picks, so fill MUST be black
+       (or any single solid color — Safari uses it as a mask). -->
+  <text x="256" y="350"
+    text-anchor="middle"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="320" font-weight="900"
+    fill="#000000">A</text>
+</svg>

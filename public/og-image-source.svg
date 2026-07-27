@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0C14"/>
+      <stop offset="100%" stop-color="#160a2e"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#5b21d4"/>
+      <stop offset="50%"  stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="35%" r="65%">
+      <stop offset="0%"  stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#spot)"/>
+
+  <!-- Decorative falling blocks (brand colors, subtle) -->
+  <g opacity="0.85">
+    <rect x="930" y="60"  width="54" height="54" rx="10" fill="#ff5e5e" opacity="0.8"/>
+    <rect x="992" y="60"  width="54" height="54" rx="10" fill="#F5C842" opacity="0.8"/>
+    <rect x="930" y="122" width="54" height="54" rx="10" fill="#4DCC7A" opacity="0.8"/>
+    <rect x="992" y="122" width="54" height="54" rx="10" fill="#4a9eff" opacity="0.8"/>
+    <rect x="1054" y="122" width="54" height="54" rx="10" fill="#4a9eff" opacity="0.5"/>
+  </g>
+  <g opacity="0.5">
+    <rect x="1080" y="480" width="40" height="40" rx="9" fill="#b06aff"/>
+    <rect x="1126" y="480" width="40" height="40" rx="9" fill="#ff8c3a"/>
+    <rect x="1080" y="526" width="40" height="40" rx="9" fill="#00d4cc"/>
+  </g>
+
+  <!-- Logo mark -->
+  <rect x="90" y="170" width="128" height="128" rx="28" fill="url(#logo)"/>
+  <rect x="90" y="170" width="128" height="128" rx="28" fill="url(#glow)"/>
+  <text x="154" y="266" text-anchor="middle"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="84" font-weight="900" fill="white" opacity="0.96">A</text>
+
+  <!-- Title -->
+  <text x="260" y="250"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="76" font-weight="900" fill="#ffffff"
+    letter-spacing="2">AURA SQUARE</text>
+
+  <!-- Tagline -->
+  <text x="262" y="300"
+    font-family="Arial, sans-serif"
+    font-size="30" font-weight="500" fill="#c4b5fd">
+    Isi. Sapu. Menang.
+  </text>
+
+  <!-- Feature pills -->
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#e9d5ff">
+    <rect x="92" y="350" width="172" height="46" rx="23" fill="#ffffff" opacity="0.06"/>
+    <text x="178" y="380" text-anchor="middle">Tanpa Login</text>
+
+    <rect x="280" y="350" width="200" height="46" rx="23" fill="#ffffff" opacity="0.06"/>
+    <text x="380" y="380" text-anchor="middle">Offline-First</text>
+
+    <rect x="496" y="350" width="180" height="46" rx="23" fill="#ffffff" opacity="0.06"/>
+    <text x="586" y="380" text-anchor="middle">Bisa Install</text>
+  </g>
+
+  <!-- Bottom hint -->
+  <text x="92" y="560" font-family="Arial, sans-serif" font-size="22" fill="#6b7280">
+    Game puzzle block premium · Mainkan langsung di browser
+  </text>
+</svg>
