@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5b21d4"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#9333ea"/>
+    </linearGradient>
+  </defs>
+  <!-- Full background — matches manifest/Capacitor backgroundColor #0B0C14 -->
+  <rect width="1024" height="1024" fill="#0B0C14"/>
+  <!-- Centered logo mark, same visual as the in-app JS splash in index.html -->
+  <rect x="392" y="392" width="240" height="240" rx="56" fill="url(#g)"/>
+  <text x="512" y="600"
+    text-anchor="middle"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="160" font-weight="900"
+    fill="white" opacity="0.95">A</text>
+</svg>
