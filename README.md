@@ -110,7 +110,7 @@ npm run ci        # typecheck + lint + test
 - 🎮 **Board 8×8** dengan drag-and-drop, combo, particle effect, dan hint gratis
 - 🗓️ **Tantangan Harian & Mingguan**, 32 achievement, level & rank system
 - 📊 **Statistik lengkap** — grafik skor, streak, riwayat 50 game terakhir
-- 🎨 **3 tema visual**, avatar, dukungan Bahasa Indonesia & English
+- 🎨 **5 tema visual**, avatar, dukungan Bahasa Indonesia & English
 - 📱 **PWA installable**, jalan penuh offline, backup/restore progres ke JSON
 - 🎵 **Audio tersintesis** — efek suara & musik ambient tanpa file eksternal
 
