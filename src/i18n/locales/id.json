@@ -1,558 +1,559 @@
 {
-    "app": {
-        "name": "Aura Square",
-        "tagline": "Isi. Sapu. Menang."
+  "app": {
+    "name": "Aura Square",
+    "tagline": "Isi. Sapu. Menang."
+  },
+  "nav": {
+    "home": "Beranda",
+    "daily": "Harian",
+    "leaderboard": "Klasemen",
+    "profile": "Profil",
+    "settings": "Pengaturan",
+    "achievements": "Pencapaian",
+    "statistics": "Statistik",
+    "language": "Bahasa"
+  },
+  "auth": {
+    "welcome": "Selamat Datang di Aura Square",
+    "subtitle": "Masuk untuk menyimpan progres dan bersaing secara global.",
+    "sign_in_google": "Lanjutkan dengan Google",
+    "continue_guest": "Lanjutkan sebagai Tamu",
+    "guest_warning": "Progres tamu hanya tersimpan secara lokal.",
+    "signing_in": "Sedang masuk…",
+    "sign_out": "Keluar",
+    "sign_out_confirm": "Apakah kamu yakin ingin keluar?",
+    "upgrade_prompt": "Buat akun untuk sinkronkan progresmu",
+    "upgrade_action": "Hubungkan Akun Google",
+    "already_signed_in": "Kamu masuk sebagai {{name}}",
+    "anonymous_user": "Pemain Tamu",
+    "error_generic": "Masuk gagal. Silakan coba lagi.",
+    "error_network": "Kesalahan jaringan. Periksa koneksimu.",
+    "error_popup": "Popup diblokir. Mengalihkan…"
+  },
+  "home": {
+    "title": "Beranda",
+    "quick_play": "Main Cepat",
+    "daily_challenge": "Tantangan Harian",
+    "daily_desc": "Teka-teki baru setiap hari",
+    "leaderboard": "Klasemen",
+    "your_best": "Skor Terbaikmu",
+    "play_count": "Total Permainan",
+    "no_score": "Belum ada skor — mainkan dulu!",
+    "streak_suffix": "hari",
+    "current_score": "Skor saat ini: {{score}} pts",
+    "play_offline_hint": "Langsung bermain — tanpa login",
+    "new_game_cta": "Mulai Game Baru",
+    "stat_best": "Terbaik",
+    "stat_played": "Dimainkan",
+    "stat_average": "Rata-rata",
+    "achievements_progress": "{{count}} / {{total}} Pencapaian",
+    "percent_done": "{{pct}}% selesai",
+    "quick_achievements": "Pencapaian",
+    "quick_leaderboard": "Klasemen",
+    "quick_statistics": "Statistik",
+    "quick_settings": "Pengaturan",
+    "quick_best_score": "Skor terbaik",
+    "quick_n_games": "{{count}} game",
+    "quick_theme_lang": "Tema & Bahasa"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "appearance": "Tampilan",
+    "theme": "Tema",
+    "theme_dark": "Gelap",
+    "theme_light": "Terang",
+    "theme_system": "Sistem",
+    "language": "Bahasa",
+    "lang_en": "Inggris",
+    "lang_id": "Indonesia",
+    "audio": "Audio",
+    "sound_effects": "Efek Suara",
+    "music": "Musik Latar",
+    "account": "Akun",
+    "notifications": "Notifikasi",
+    "about": "Tentang",
+    "version": "Versi",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "vibration": "Getaran",
+    "reduced_motion": "Kurangi Animasi",
+    "language_app": "Bahasa Aplikasi",
+    "profile_section": "Profil",
+    "edit_name_avatar": "Edit nama & avatar →",
+    "data_section": "Data",
+    "data_note": "Semua data disimpan lokal di perangkat ini. Tidak ada server, tidak ada akun.",
+    "clear_data": "Hapus semua data & riwayat",
+    "clear_data_confirm": "Hapus semua data?",
+    "clear_data_warning": "Riwayat, statistik, dan pencapaian akan terhapus permanen.",
+    "footer": "Aura Square v3.0 · Offline-First · MIT License",
+    "accessibility_section": "Aksesibilitas",
+    "reduced_motion_desc": "Mengurangi partikel, shockwave, dan animasi gerak besar lainnya. Otomatis aktif juga jika sistem perangkatmu sudah mengatur preferensi gerakan minim.",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "title_main": "Pengaturan",
+    "backup_export": "Simpan Cadangan (Backup)",
+    "backup_export_desc": "Unduh semua progress, skor, dan pencapaianmu sebagai file. Simpan file ini di tempat aman.",
+    "backup_import": "Pulihkan dari Cadangan",
+    "backup_import_desc": "Punya file backup? Pulihkan progress dari sana.",
+    "backup_choose_file": "Pilih File Backup",
+    "backup_confirm_title": "Pulihkan data ini?",
+    "backup_confirm_warning": "Data saat ini akan DIGANTI dengan isi file backup. Tindakan ini tidak bisa dibatalkan.",
+    "backup_preview_best": "Skor terbaik",
+    "backup_preview_games": "Total game",
+    "backup_preview_name": "Nama pemain",
+    "backup_preview_date": "Tanggal backup",
+    "backup_restore_cta": "Ya, Pulihkan",
+    "backup_success": "Data berhasil dipulihkan! Memuat ulang...",
+    "backup_error_invalid": "File ini bukan file backup Aura Square yang valid.",
+    "backup_error_read": "Gagal membaca file. Pastikan file tidak rusak.",
+    "backup_exported_toast": "Backup berhasil diunduh!",
+    "install_section": "Install Aplikasi",
+    "install_title": "Pasang Aura Square",
+    "install_desc": "Main lebih cepat dan mulus — pasang sebagai aplikasi di perangkatmu, tanpa perlu buka browser.",
+    "install_cta": "Pasang Sekarang",
+    "install_installed": "Sudah terpasang",
+    "install_ios_title": "Cara pasang di iPhone/iPad",
+    "install_ios_step1": "1. Tap ikon Bagikan di Safari",
+    "install_ios_step2": "2. Pilih \"Tambah ke Layar Utama\"",
+    "install_ios_step3": "3. Tap \"Tambah\" di pojok kanan atas",
+    "install_dismissed": "Kamu bisa pasang lagi kapan saja dari sini."
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Edit Profil",
+    "display_name": "Nama Tampilan",
+    "stats": "Statistik",
+    "best_score": "Skor Terbaik",
+    "total_games": "Total Permainan",
+    "avg_score": "Rata-rata Skor",
+    "achievements": "Pencapaian",
+    "history": "Riwayat Permainan",
+    "no_history": "Belum ada permainan.",
+    "no_login_badge": "Tanpa Login",
+    "local_data_badge": "Data Lokal",
+    "stats_section": "Statistik Permainan",
+    "lines_cleared": "Baris Dibersihkan",
+    "pieces_placed_total": "Total Potongan Diletakkan",
+    "achievements_section": "Pencapaian",
+    "unlocked_of": "{{count}} / {{total}} terbuka",
+    "points": "poin",
+    "badge_collection": "Koleksi Lencana",
+    "local_data_title": "Profil Tersimpan Lokal",
+    "local_data_desc": "Semua data tersimpan di perangkat ini menggunakan localStorage. Tidak ada server, tidak ada akun yang diperlukan. Ganti nama atau avatar kapanpun kamu mau!"
+  },
+  "game": {
+    "score": "Skor",
+    "best": "Terbaik",
+    "pause": "Jeda",
+    "resume": "Lanjutkan",
+    "restart": "Main Baru",
+    "game_over": "Game Over",
+    "no_moves": "Tidak ada lagi langkah!",
+    "play_again": "Main Lagi",
+    "new_best": "Rekor Baru! 🏆",
+    "combo": "Kombo!",
+    "double": "Ganda!",
+    "triple": "Tiga Kali!",
+    "quad": "Empat Kali!",
+    "hint": "Bantuan",
+    "hint_used": "Bantuan digunakan",
+    "hint_empty": "Bantuan habis untuk game ini",
+    "hint_none_found": "Tidak ada langkah tersisa",
+    "share": "Bagikan Skor",
+    "share_generating": "Membuat kartu skor...",
+    "share_downloaded": "Gambar diunduh & teks disalin!",
+    "share_error": "Gagal membagikan. Coba lagi.",
+    "share_caption": "Aku baru dapat skor {{score}} di Aura Square! Coba kalahkan aku.",
+    "vs_average_above": "{{pct}}% di atas rata-ratamu",
+    "vs_average_below": "{{pct}}% di bawah rata-ratamu",
+    "vs_average_same": "Sama seperti rata-ratamu",
+    "first_game_note": "Permainan pertamamu!"
+  },
+  "daily": {
+    "title": "Tantangan Harian",
+    "today": "Tantangan Hari Ini",
+    "completed": "Tantangan Selesai!",
+    "streak": "Hari Berturut-turut",
+    "next_in": "Tantangan berikutnya dalam {{time}}",
+    "objectives": "Objektif Bonus",
+    "rank_gold": "Emas",
+    "rank_silver": "Perak",
+    "rank_bronze": "Perunggu",
+    "mission_board": "Misi Harian",
+    "target_score": "Target Skor",
+    "last_7_days": "7 Hari Terakhir",
+    "start_challenge": "Mulai Tantangan",
+    "today_done": "Selesai hari ini",
+    "next_available": "Tantangan baru tersedia setiap hari!",
+    "streak_days": "{{count}} Hari Berturut-turut!",
+    "streak_keep": "Jaga streak kamu setiap hari",
+    "challenge_today": "Tantangan Hari Ini",
+    "same_pieces": "Potongan yang sama untuk semua pemain!",
+    "unique_sequence": "Setiap hari punya urutan potongan unik. Tunjukkan kemampuanmu!",
+    "changes_in": "Berganti dalam {{time}}",
+    "done_label": "Selesai",
+    "challenge_done_today": "Tantangan hari ini selesai!",
+    "view_leaderboard": "Lihat Klasemen →"
+  },
+  "leaderboard": {
+    "title": "Klasemen",
+    "daily": "Harian",
+    "weekly": "Mingguan",
+    "all_time": "Sepanjang Masa",
+    "your_rank": "Peringkatmu",
+    "no_rank": "Belum ada peringkat",
+    "loading": "Memuat skor…",
+    "empty": "Belum ada skor. Jadilah yang pertama!",
+    "page_title": "Klasemen",
+    "subtitle_online": "Online & skor personalmu",
+    "subtitle_offline": "Skor personalmu",
+    "your_best": "Rekor Terbaikmu",
+    "daily_today": "Harian hari ini",
+    "tab_personal": "Personal",
+    "tab_daily_online": "Harian Online",
+    "tab_global": "Global",
+    "no_score_yet": "Belum ada skor",
+    "no_online_score": "Belum ada skor online.",
+    "play_daily_hint": "Mainkan tantangan harian untuk tampil di sini!",
+    "firebase_required": "Membutuhkan Firebase",
+    "firebase_desc": "Klasemen online membutuhkan konfigurasi Firebase yang valid di",
+    "firebase_demo_note": "Saat ini menggunakan nilai demo.",
+    "load_error": "Gagal memuat data online.",
+    "row_sub": "{{pieces}} potongan · {{dur}}"
+  },
+  "common": {
+    "loading": "Memuat…",
+    "error": "Terjadi kesalahan.",
+    "retry": "Coba Lagi",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "save": "Simpan",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "done": "Selesai",
+    "yes": "Ya",
+    "no": "Tidak",
+    "coming_soon": "Segera Hadir",
+    "play_now": "Main Sekarang",
+    "new_game": "Game Baru",
+    "continue_game": "Lanjutkan Permainan",
+    "greeting_morning": "Selamat Pagi",
+    "greeting_afternoon": "Selamat Siang",
+    "greeting_evening": "Selamat Sore",
+    "greeting_night": "Selamat Malam",
+    "about": "Tentang",
+    "play_short": "Main",
+    "offline_notice": "Kamu sedang offline — data lokal tetap aman",
+    "pwa_update_title": "Versi baru tersedia",
+    "pwa_update_desc": "Muat ulang untuk memperbarui.",
+    "pwa_offline_title": "Siap dipakai offline",
+    "pwa_offline_desc": "Aura Square kini bisa dimainkan tanpa internet.",
+    "refresh": "Muat Ulang",
+    "later": "Nanti",
+    "ok": "Oke"
+  },
+  "achievements": {
+    "items": {
+      "score_50": {
+        "title": "Awal Perjalanan",
+        "description": "Capai skor 50 pertama kali"
+      },
+      "score_100": {
+        "title": "Seratus!",
+        "description": "Capai skor 100"
+      },
+      "score_250": {
+        "title": "Melesat",
+        "description": "Capai skor 250"
+      },
+      "score_500": {
+        "title": "Petarung",
+        "description": "Capai skor 500"
+      },
+      "score_1000": {
+        "title": "Juara",
+        "description": "Capai skor 1.000"
+      },
+      "score_2500": {
+        "title": "Legenda",
+        "description": "Capai skor 2.500"
+      },
+      "score_5000": {
+        "title": "Tak Tertandingi",
+        "description": "Capai skor 5.000"
+      },
+      "games_1": {
+        "title": "Permainan Pertama",
+        "description": "Selesaikan 1 permainan"
+      },
+      "games_5": {
+        "title": "Ketekunan",
+        "description": "Mainkan 5 permainan"
+      },
+      "games_10": {
+        "title": "Pejuang",
+        "description": "Mainkan 10 permainan"
+      },
+      "games_25": {
+        "title": "Veteran",
+        "description": "Mainkan 25 permainan"
+      },
+      "games_50": {
+        "title": "Master",
+        "description": "Mainkan 50 permainan"
+      },
+      "lines_10": {
+        "title": "Bersih-bersih",
+        "description": "Bersihkan 10 baris"
+      },
+      "lines_50": {
+        "title": "Sapu Bersih",
+        "description": "Bersihkan 50 baris"
+      },
+      "lines_100": {
+        "title": "Pembasmi",
+        "description": "Bersihkan 100 baris"
+      },
+      "lines_250": {
+        "title": "Penghancur",
+        "description": "Bersihkan 250 baris"
+      },
+      "combo_double": {
+        "title": "Dobel!",
+        "description": "Bersihkan 2 baris sekaligus"
+      },
+      "combo_triple": {
+        "title": "Triple!",
+        "description": "Bersihkan 3 baris sekaligus"
+      },
+      "combo_quad": {
+        "title": "Quad!",
+        "description": "Bersihkan 4 baris sekaligus"
+      },
+      "pieces_100": {
+        "title": "Penempatan Presisi",
+        "description": "Letakkan 100 potongan"
+      },
+      "pieces_500": {
+        "title": "Rajin",
+        "description": "Letakkan 500 potongan"
+      },
+      "pieces_1000": {
+        "title": "Pekerja Keras",
+        "description": "Letakkan 1.000 potongan"
+      },
+      "session_3min": {
+        "title": "Sesi Panjang",
+        "description": "Bermain lebih dari 3 menit dalam satu sesi"
+      },
+      "session_5min": {
+        "title": "Maraton",
+        "description": "Bermain lebih dari 5 menit dalam satu sesi"
+      },
+      "daily_first": {
+        "title": "Tantangan Pertama",
+        "description": "Selesaikan 1 Tantangan Harian"
+      },
+      "daily_streak_3": {
+        "title": "Konsisten",
+        "description": "Raih streak harian 3 hari berturut-turut"
+      },
+      "daily_streak_7": {
+        "title": "Pejuang Mingguan",
+        "description": "Raih streak harian 7 hari berturut-turut"
+      },
+      "weekly_first": {
+        "title": "Penakluk Mingguan",
+        "description": "Selesaikan 1 Tantangan Mingguan"
+      },
+      "level_10": {
+        "title": "Naik Level",
+        "description": "Capai Level 10"
+      },
+      "level_50": {
+        "title": "Setengah Jalan",
+        "description": "Capai Level 50"
+      },
+      "level_100": {
+        "title": "Maksimal",
+        "description": "Capai Level 100 — level tertinggi"
+      },
+      "rank_grandmaster": {
+        "title": "Grandmaster",
+        "description": "Capai rank Grandmaster — pencapaian tersulit"
+      }
     },
-    "nav": {
-        "home": "Beranda",
-        "daily": "Harian",
-        "leaderboard": "Klasemen",
-        "profile": "Profil",
-        "settings": "Pengaturan",
-        "achievements": "Pencapaian",
-        "statistics": "Statistik",
-        "language": "Bahasa"
+    "categories": {
+      "all": "Semua",
+      "score": "Skor",
+      "games": "Permainan",
+      "lines": "Baris",
+      "combo": "Combo",
+      "special": "Spesial",
+      "daily": "Harian",
+      "mastery": "Mastery"
     },
-    "auth": {
-        "welcome": "Selamat Datang di Aura Square",
-        "subtitle": "Masuk untuk menyimpan progres dan bersaing secara global.",
-        "sign_in_google": "Lanjutkan dengan Google",
-        "continue_guest": "Lanjutkan sebagai Tamu",
-        "guest_warning": "Progres tamu hanya tersimpan secara lokal.",
-        "signing_in": "Sedang masuk…",
-        "sign_out": "Keluar",
-        "sign_out_confirm": "Apakah kamu yakin ingin keluar?",
-        "upgrade_prompt": "Buat akun untuk sinkronkan progresmu",
-        "upgrade_action": "Hubungkan Akun Google",
-        "already_signed_in": "Kamu masuk sebagai {{name}}",
-        "anonymous_user": "Pemain Tamu",
-        "error_generic": "Masuk gagal. Silakan coba lagi.",
-        "error_network": "Kesalahan jaringan. Periksa koneksimu.",
-        "error_popup": "Popup diblokir. Mengalihkan…"
+    "page_title": "Pencapaian",
+    "unlocked_count": "{{count}} / {{total}} terbuka",
+    "points_total": "dari {{total}} poin total",
+    "percent_complete": "selesai"
+  },
+  "titles": {
+    "pemula": "Pemula",
+    "penjelajah": "Penjelajah",
+    "ahli_strategi": "Ahli Strategi",
+    "veteran": "Veteran",
+    "master_blok": "Master Blok",
+    "legenda_aura": "Legenda Aura",
+    "sang_juara": "Sang Juara",
+    "penakluk": "Penakluk",
+    "grandmaster_sejati": "Grandmaster Sejati",
+    "raja_combo": "Raja Combo",
+    "kolektor": "Kolektor"
+  },
+  "badges": {
+    "rank_bronze": {
+      "label": "Lencana Perunggu",
+      "desc": "Capai rank Perunggu"
     },
-    "home": {
-        "title": "Beranda",
-        "quick_play": "Main Cepat",
-        "daily_challenge": "Tantangan Harian",
-        "daily_desc": "Teka-teki baru setiap hari",
-        "leaderboard": "Klasemen",
-        "your_best": "Skor Terbaikmu",
-        "play_count": "Total Permainan",
-        "no_score": "Belum ada skor — mainkan dulu!",
-        "streak_suffix": "hari",
-        "current_score": "Skor saat ini: {{score}} pts",
-        "play_offline_hint": "Langsung bermain — tanpa login",
-        "new_game_cta": "Mulai Game Baru",
-        "stat_best": "Terbaik",
-        "stat_played": "Dimainkan",
-        "stat_average": "Rata-rata",
-        "achievements_progress": "{{count}} / {{total}} Pencapaian",
-        "percent_done": "{{pct}}% selesai",
-        "quick_achievements": "Pencapaian",
-        "quick_leaderboard": "Klasemen",
-        "quick_statistics": "Statistik",
-        "quick_settings": "Pengaturan",
-        "quick_best_score": "Skor terbaik",
-        "quick_n_games": "{{count}} game",
-        "quick_theme_lang": "Tema & Bahasa"
+    "rank_silver": {
+      "label": "Lencana Perak",
+      "desc": "Capai rank Perak"
     },
-    "settings": {
-        "title": "Pengaturan",
-        "appearance": "Tampilan",
-        "theme": "Tema",
-        "theme_dark": "Gelap",
-        "theme_light": "Terang",
-        "theme_system": "Sistem",
-        "language": "Bahasa",
-        "lang_en": "Inggris",
-        "lang_id": "Indonesia",
-        "audio": "Audio",
-        "sound_effects": "Efek Suara",
-        "music": "Musik Latar",
-        "account": "Akun",
-        "notifications": "Notifikasi",
-        "about": "Tentang",
-        "version": "Versi",
-        "privacy": "Kebijakan Privasi",
-        "terms": "Syarat Layanan",
-        "vibration": "Getaran",
-        "reduced_motion": "Kurangi Animasi",
-        "language_app": "Bahasa Aplikasi",
-        "profile_section": "Profil",
-        "edit_name_avatar": "Edit nama & avatar →",
-        "data_section": "Data",
-        "data_note": "Semua data disimpan lokal di perangkat ini. Tidak ada server, tidak ada akun.",
-        "clear_data": "Hapus semua data & riwayat",
-        "clear_data_confirm": "Hapus semua data?",
-        "clear_data_warning": "Riwayat, statistik, dan pencapaian akan terhapus permanen.",
-        "footer": "Aura Square v3.0 · Offline-First · MIT License",
-        "accessibility_section": "Aksesibilitas",
-        "reduced_motion_desc": "Mengurangi partikel, shockwave, dan animasi gerak besar lainnya. Otomatis aktif juga jika sistem perangkatmu sudah mengatur preferensi gerakan minim.",
-        "cancel": "Batal",
-        "delete": "Hapus",
-        "title_main": "Pengaturan",
-        "backup_export": "Simpan Cadangan (Backup)",
-        "backup_export_desc": "Unduh semua progress, skor, dan pencapaianmu sebagai file. Simpan file ini di tempat aman.",
-        "backup_import": "Pulihkan dari Cadangan",
-        "backup_import_desc": "Punya file backup? Pulihkan progress dari sana.",
-        "backup_choose_file": "Pilih File Backup",
-        "backup_confirm_title": "Pulihkan data ini?",
-        "backup_confirm_warning": "Data saat ini akan DIGANTI dengan isi file backup. Tindakan ini tidak bisa dibatalkan.",
-        "backup_preview_best": "Skor terbaik",
-        "backup_preview_games": "Total game",
-        "backup_preview_name": "Nama pemain",
-        "backup_preview_date": "Tanggal backup",
-        "backup_restore_cta": "Ya, Pulihkan",
-        "backup_success": "Data berhasil dipulihkan! Memuat ulang...",
-        "backup_error_invalid": "File ini bukan file backup Aura Square yang valid.",
-        "backup_error_read": "Gagal membaca file. Pastikan file tidak rusak.",
-        "backup_exported_toast": "Backup berhasil diunduh!",
-        "install_section": "Install Aplikasi",
-        "install_title": "Pasang Aura Square",
-        "install_desc": "Main lebih cepat dan mulus — pasang sebagai aplikasi di perangkatmu, tanpa perlu buka browser.",
-        "install_cta": "Pasang Sekarang",
-        "install_installed": "Sudah terpasang",
-        "install_ios_title": "Cara pasang di iPhone/iPad",
-        "install_ios_step1": "1. Tap ikon Bagikan di Safari",
-        "install_ios_step2": "2. Pilih \"Tambah ke Layar Utama\"",
-        "install_ios_step3": "3. Tap \"Tambah\" di pojok kanan atas",
-        "install_dismissed": "Kamu bisa pasang lagi kapan saja dari sini."
+    "rank_gold": {
+      "label": "Lencana Emas",
+      "desc": "Capai rank Emas"
     },
-    "profile": {
-        "title": "Profil",
-        "edit": "Edit Profil",
-        "display_name": "Nama Tampilan",
-        "stats": "Statistik",
-        "best_score": "Skor Terbaik",
-        "total_games": "Total Permainan",
-        "avg_score": "Rata-rata Skor",
-        "achievements": "Pencapaian",
-        "history": "Riwayat Permainan",
-        "no_history": "Belum ada permainan.",
-        "no_login_badge": "Tanpa Login",
-        "local_data_badge": "Data Lokal",
-        "stats_section": "Statistik Permainan",
-        "lines_cleared": "Baris Dibersihkan",
-        "pieces_placed_total": "Total Potongan Diletakkan",
-        "achievements_section": "Pencapaian",
-        "unlocked_of": "{{count}} / {{total}} terbuka",
-        "points": "poin",
-        "badge_collection": "Koleksi Lencana",
-        "local_data_title": "Profil Tersimpan Lokal",
-        "local_data_desc": "Semua data tersimpan di perangkat ini menggunakan localStorage. Tidak ada server, tidak ada akun yang diperlukan. Ganti nama atau avatar kapanpun kamu mau!"
+    "rank_platinum": {
+      "label": "Lencana Platinum",
+      "desc": "Capai rank Platinum"
     },
-    "game": {
-        "score": "Skor",
-        "best": "Terbaik",
-        "pause": "Jeda",
-        "resume": "Lanjutkan",
-        "restart": "Main Baru",
-        "game_over": "Game Over",
-        "no_moves": "Tidak ada lagi langkah!",
-        "play_again": "Main Lagi",
-        "new_best": "Rekor Baru! 🏆",
-        "combo": "Kombo!",
-        "double": "Ganda!",
-        "triple": "Tiga Kali!",
-        "quad": "Empat Kali!",
-        "hint": "Bantuan",
-        "hint_used": "Bantuan digunakan",
-        "hint_empty": "Bantuan habis untuk game ini",
-        "hint_none_found": "Tidak ada langkah tersisa",
-        "share": "Bagikan Skor",
-        "share_generating": "Membuat kartu skor...",
-        "share_downloaded": "Gambar diunduh & teks disalin!",
-        "share_error": "Gagal membagikan. Coba lagi.",
-        "share_caption": "Aku baru dapat skor {{score}} di Aura Square! Coba kalahkan aku.",
-        "vs_average_above": "{{pct}}% di atas rata-ratamu",
-        "vs_average_below": "{{pct}}% di bawah rata-ratamu",
-        "vs_average_same": "Sama seperti rata-ratamu",
-        "first_game_note": "Permainan pertamamu!"
+    "rank_diamond": {
+      "label": "Lencana Diamond",
+      "desc": "Capai rank Diamond"
     },
-    "daily": {
-        "title": "Tantangan Harian",
-        "today": "Tantangan Hari Ini",
-        "completed": "Tantangan Selesai!",
-        "streak": "Hari Berturut-turut",
-        "next_in": "Tantangan berikutnya dalam {{time}}",
-        "objectives": "Objektif Bonus",
-        "rank_gold": "Emas",
-        "rank_silver": "Perak",
-        "rank_bronze": "Perunggu",
-        "mission_board": "Misi Harian",
-        "target_score": "Target Skor",
-        "last_7_days": "7 Hari Terakhir",
-        "start_challenge": "Mulai Tantangan",
-        "today_done": "Selesai hari ini",
-        "next_available": "Tantangan baru tersedia setiap hari!",
-        "streak_days": "{{count}} Hari Berturut-turut!",
-        "streak_keep": "Jaga streak kamu setiap hari",
-        "challenge_today": "Tantangan Hari Ini",
-        "same_pieces": "Potongan yang sama untuk semua pemain!",
-        "unique_sequence": "Setiap hari punya urutan potongan unik. Tunjukkan kemampuanmu!",
-        "changes_in": "Berganti dalam {{time}}",
-        "done_label": "Selesai",
-        "challenge_done_today": "Tantangan hari ini selesai!",
-        "view_leaderboard": "Lihat Klasemen →"
+    "rank_master": {
+      "label": "Lencana Master",
+      "desc": "Capai rank Master"
     },
-    "leaderboard": {
-        "title": "Klasemen",
-        "daily": "Harian",
-        "weekly": "Mingguan",
-        "all_time": "Sepanjang Masa",
-        "your_rank": "Peringkatmu",
-        "no_rank": "Belum ada peringkat",
-        "loading": "Memuat skor…",
-        "empty": "Belum ada skor. Jadilah yang pertama!",
-        "page_title": "Klasemen",
-        "subtitle_online": "Online & skor personalmu",
-        "subtitle_offline": "Skor personalmu",
-        "your_best": "Rekor Terbaikmu",
-        "daily_today": "Harian hari ini",
-        "tab_personal": "Personal",
-        "tab_daily_online": "Harian Online",
-        "tab_global": "Global",
-        "no_score_yet": "Belum ada skor",
-        "no_online_score": "Belum ada skor online.",
-        "play_daily_hint": "Mainkan tantangan harian untuk tampil di sini!",
-        "firebase_required": "Membutuhkan Firebase",
-        "firebase_desc": "Klasemen online membutuhkan konfigurasi Firebase yang valid di",
-        "firebase_demo_note": "Saat ini menggunakan nilai demo.",
-        "load_error": "Gagal memuat data online.",
-        "row_sub": "{{pieces}} potongan · {{dur}}"
+    "rank_grandmaster": {
+      "label": "Lencana Grandmaster",
+      "desc": "Capai rank Grandmaster"
     },
-    "common": {
-        "loading": "Memuat…",
-        "error": "Terjadi kesalahan.",
-        "retry": "Coba Lagi",
-        "cancel": "Batal",
-        "confirm": "Konfirmasi",
-        "save": "Simpan",
-        "close": "Tutup",
-        "back": "Kembali",
-        "next": "Berikutnya",
-        "done": "Selesai",
-        "yes": "Ya",
-        "no": "Tidak",
-        "coming_soon": "Segera Hadir",
-        "play_now": "Main Sekarang",
-        "new_game": "Game Baru",
-        "continue_game": "Lanjutkan Permainan",
-        "greeting_morning": "Selamat Pagi",
-        "greeting_afternoon": "Selamat Siang",
-        "greeting_evening": "Selamat Sore",
-        "greeting_night": "Selamat Malam",
-        "about": "Tentang",
-        "play_short": "Main",
-        "offline_notice": "Kamu sedang offline — data lokal tetap aman",
-        "pwa_update_title": "Versi baru tersedia",
-        "pwa_update_desc": "Muat ulang untuk memperbarui.",
-        "pwa_offline_title": "Siap dipakai offline",
-        "pwa_offline_desc": "Aura Square kini bisa dimainkan tanpa internet.",
-        "refresh": "Muat Ulang",
-        "later": "Nanti",
-        "ok": "Oke"
+    "theme_explorer": {
+      "label": "Penjelajah Tema",
+      "desc": "Coba ketiga tema Aura"
     },
-    "achievements": {
-        "items": {
-            "score_50": {
-                "title": "Awal Perjalanan",
-                "description": "Capai skor 50 pertama kali"
-            },
-            "score_100": {
-                "title": "Seratus!",
-                "description": "Capai skor 100"
-            },
-            "score_250": {
-                "title": "Melesat",
-                "description": "Capai skor 250"
-            },
-            "score_500": {
-                "title": "Petarung",
-                "description": "Capai skor 500"
-            },
-            "score_1000": {
-                "title": "Juara",
-                "description": "Capai skor 1.000"
-            },
-            "score_2500": {
-                "title": "Legenda",
-                "description": "Capai skor 2.500"
-            },
-            "score_5000": {
-                "title": "Tak Tertandingi",
-                "description": "Capai skor 5.000"
-            },
-            "games_1": {
-                "title": "Permainan Pertama",
-                "description": "Selesaikan 1 permainan"
-            },
-            "games_5": {
-                "title": "Ketekunan",
-                "description": "Mainkan 5 permainan"
-            },
-            "games_10": {
-                "title": "Pejuang",
-                "description": "Mainkan 10 permainan"
-            },
-            "games_25": {
-                "title": "Veteran",
-                "description": "Mainkan 25 permainan"
-            },
-            "games_50": {
-                "title": "Master",
-                "description": "Mainkan 50 permainan"
-            },
-            "lines_10": {
-                "title": "Bersih-bersih",
-                "description": "Bersihkan 10 baris"
-            },
-            "lines_50": {
-                "title": "Sapu Bersih",
-                "description": "Bersihkan 50 baris"
-            },
-            "lines_100": {
-                "title": "Pembasmi",
-                "description": "Bersihkan 100 baris"
-            },
-            "lines_250": {
-                "title": "Penghancur",
-                "description": "Bersihkan 250 baris"
-            },
-            "combo_double": {
-                "title": "Dobel!",
-                "description": "Bersihkan 2 baris sekaligus"
-            },
-            "combo_triple": {
-                "title": "Triple!",
-                "description": "Bersihkan 3 baris sekaligus"
-            },
-            "combo_quad": {
-                "title": "Quad!",
-                "description": "Bersihkan 4 baris sekaligus"
-            },
-            "pieces_100": {
-                "title": "Penempatan Presisi",
-                "description": "Letakkan 100 potongan"
-            },
-            "pieces_500": {
-                "title": "Rajin",
-                "description": "Letakkan 500 potongan"
-            },
-            "pieces_1000": {
-                "title": "Pekerja Keras",
-                "description": "Letakkan 1.000 potongan"
-            },
-            "session_3min": {
-                "title": "Sesi Panjang",
-                "description": "Bermain lebih dari 3 menit dalam satu sesi"
-            },
-            "session_5min": {
-                "title": "Maraton",
-                "description": "Bermain lebih dari 5 menit dalam satu sesi"
-            },
-            "daily_first": {
-                "title": "Tantangan Pertama",
-                "description": "Selesaikan 1 Tantangan Harian"
-            },
-            "daily_streak_3": {
-                "title": "Konsisten",
-                "description": "Raih streak harian 3 hari berturut-turut"
-            },
-            "daily_streak_7": {
-                "title": "Pejuang Mingguan",
-                "description": "Raih streak harian 7 hari berturut-turut"
-            },
-            "weekly_first": {
-                "title": "Penakluk Mingguan",
-                "description": "Selesaikan 1 Tantangan Mingguan"
-            },
-            "level_10": {
-                "title": "Naik Level",
-                "description": "Capai Level 10"
-            },
-            "level_50": {
-                "title": "Setengah Jalan",
-                "description": "Capai Level 50"
-            },
-            "level_100": {
-                "title": "Maksimal",
-                "description": "Capai Level 100 — level tertinggi"
-            },
-            "rank_grandmaster": {
-                "title": "Grandmaster",
-                "description": "Capai rank Grandmaster — pencapaian tersulit"
-            }
-        },
-        "categories": {
-            "all": "Semua",
-            "score": "Skor",
-            "games": "Permainan",
-            "lines": "Baris",
-            "combo": "Combo",
-            "special": "Spesial",
-            "daily": "Harian",
-            "mastery": "Mastery"
-        },
-        "page_title": "Pencapaian",
-        "unlocked_count": "{{count}} / {{total}} terbuka",
-        "points_total": "dari {{total}} poin total",
-        "percent_complete": "selesai"
+    "streak_master": {
+      "label": "Maestro Streak",
+      "desc": "Raih streak harian 7 hari"
     },
-    "titles": {
-        "pemula": "Pemula",
-        "penjelajah": "Penjelajah",
-        "ahli_strategi": "Ahli Strategi",
-        "veteran": "Veteran",
-        "master_blok": "Master Blok",
-        "legenda_aura": "Legenda Aura",
-        "sang_juara": "Sang Juara",
-        "penakluk": "Penakluk",
-        "grandmaster_sejati": "Grandmaster Sejati",
-        "raja_combo": "Raja Combo",
-        "kolektor": "Kolektor"
-    },
-    "badges": {
-        "rank_bronze": {
-            "label": "Lencana Perunggu",
-            "desc": "Capai rank Perunggu"
-        },
-        "rank_silver": {
-            "label": "Lencana Perak",
-            "desc": "Capai rank Perak"
-        },
-        "rank_gold": {
-            "label": "Lencana Emas",
-            "desc": "Capai rank Emas"
-        },
-        "rank_platinum": {
-            "label": "Lencana Platinum",
-            "desc": "Capai rank Platinum"
-        },
-        "rank_diamond": {
-            "label": "Lencana Diamond",
-            "desc": "Capai rank Diamond"
-        },
-        "rank_master": {
-            "label": "Lencana Master",
-            "desc": "Capai rank Master"
-        },
-        "rank_grandmaster": {
-            "label": "Lencana Grandmaster",
-            "desc": "Capai rank Grandmaster"
-        },
-        "theme_explorer": {
-            "label": "Penjelajah Tema",
-            "desc": "Coba ketiga tema Aura"
-        },
-        "streak_master": {
-            "label": "Maestro Streak",
-            "desc": "Raih streak harian 7 hari"
-        },
-        "perfect_clear": {
-            "label": "Pembersih Sempurna",
-            "desc": "Raih combo Quad (4 baris sekaligus)"
-        }
-    },
-    "missions": {
-        "play_2": "Main 2 game",
-        "play_3": "Main 3 game",
-        "play_5": "Main 5 game",
-        "score_100": "Raih skor 100 dalam 1 game",
-        "score_200": "Raih skor 200 dalam 1 game",
-        "score_350": "Raih skor 350 dalam 1 game",
-        "lines_10": "Bersihkan 10 baris",
-        "lines_20": "Bersihkan 20 baris",
-        "lines_40": "Bersihkan 40 baris",
-        "combo_2": "Raih combo Double",
-        "combo_3": "Raih combo Triple",
-        "combo_4": "Raih combo Quad",
-        "pieces_30": "Tempatkan 30 potongan",
-        "pieces_60": "Tempatkan 60 potongan",
-        "pieces_100": "Tempatkan 100 potongan",
-        "section_title": "Misi Harian",
-        "all_done_title": "Semua misi selesai!",
-        "all_done_claimed": "Bonus peti +75 XP sudah didapat hari ini",
-        "all_done_pending": "Bonus peti akan masuk otomatis",
-        "bonus_chest": "Bonus peti +75 XP",
-        "completed_label": "Misi selesai"
-    },
-    "weekly": {
-        "section_title": "Tantangan Mingguan",
-        "bigger_reward": "Reward Lebih Besar",
-        "one_chance": "Satu kesempatan, berlaku seminggu",
-        "desc": "Berganti setiap Senin. Skor lebih tinggi, XP jauh lebih besar dari harian.",
-        "cta": "Mulai Tantangan Mingguan",
-        "changes_in": "Berganti dalam {{time}}",
-        "completed_this_week": "Minggu ini selesai · {{time}} lagi",
-        "target_title": "Target Skor",
-        "rank_bronze": "Perunggu",
-        "rank_silver": "Perak",
-        "rank_gold": "Emas",
-        "rank_platinum": "Platinum"
-    },
-    "theme": {
-        "section_title": "Tema",
-        "dark_aura": "Dark Aura",
-        "light_aura": "Light Aura",
-        "green_aura": "Green Aura",
-        "autosave_note": "Tema tersimpan otomatis di perangkat ini."
-    },
-    "player_card": {
-        "level": "LEVEL",
-        "xp": "XP",
-        "max_level": "Level Maksimum!",
-        "rank_progress_to": "Menuju {{rank}}"
-    },
-    "ranks": {
-        "bronze": "Perunggu",
-        "silver": "Perak",
-        "gold": "Emas",
-        "platinum": "Platinum",
-        "diamond": "Diamond",
-        "master": "Master",
-        "grandmaster": "Grandmaster"
-    },
-    "statistics": {
-        "page_title": "Statistik",
-        "games_recorded": "{{count}} permainan tercatat",
-        "best_record": "Rekor Terbaik",
-        "average": "Rata-rata",
-        "total_game": "Total Game",
-        "lines_cleared": "Baris Dibersihkan",
-        "score_trend": "Tren Skor (30 game terakhir)",
-        "win_streak": "Win Streak",
-        "streak_days_label": "Hari Beruntun",
-        "streak_record": "Rekor Hari",
-        "streak_session": "Game Beruntun",
-        "favorite_piece": "Piece Favorit",
-        "shape_label": "Bentuk #{{num}}",
-        "placed_count": "Ditempatkan {{placedCount}} kali",
-        "pieces_placed_total": "Total Potongan Diletakkan",
-        "recent_history": "Riwayat Terakhir",
-        "clear_all": "Hapus semua",
-        "clear_confirm": "Hapus semua riwayat statistik?",
-        "history_row": "{{pieces}} potongan · {{lines}} baris · {{dur}}"
-    },
-    "about": {
-        "page_title": "Tentang",
-        "tagline": "Isi. Sapu. Menang.",
-        "version_label": "Versi {{version}}",
-        "description": "Aura Square adalah game puzzle block premium, offline-first, dan tanpa login. Mainkan langsung — semua data tersimpan lokal di perangkatmu.",
-        "features_title": "Fitur",
-        "feature_zero_login": "Tanpa login, langsung main",
-        "feature_offline": "Offline-first — bisa di-install seperti aplikasi",
-        "feature_daily": "Tantangan Harian & Mingguan",
-        "feature_achievements": "{{count}} Pencapaian di 7 kategori",
-        "feature_missions": "Misi Harian dengan reward XP",
-        "feature_progression": "Sistem Level, Rank, Title & Badge",
-        "feature_themes": "3 tema visual: Dark, Light, Green Aura",
-        "feature_a11y": "Dukungan kurangi animasi & getaran",
-        "credits_title": "Kredit",
-        "engine_credit": "Engine permainan terinspirasi dari",
-        "made_by": "Dibuat oleh",
-        "license": "Lisensi MIT",
-        "privacy_title": "Privasi",
-        "privacy_desc": "Aura Square tidak mengumpulkan data pribadi apapun. Semua statistik, pencapaian, dan preferensi tersimpan hanya di localStorage perangkatmu."
+    "perfect_clear": {
+      "label": "Pembersih Sempurna",
+      "desc": "Raih combo Quad (4 baris sekaligus)"
     }
+  },
+  "missions": {
+    "play_2": "Main 2 game",
+    "play_3": "Main 3 game",
+    "play_5": "Main 5 game",
+    "score_100": "Raih skor 100 dalam 1 game",
+    "score_200": "Raih skor 200 dalam 1 game",
+    "score_350": "Raih skor 350 dalam 1 game",
+    "lines_10": "Bersihkan 10 baris",
+    "lines_20": "Bersihkan 20 baris",
+    "lines_40": "Bersihkan 40 baris",
+    "combo_2": "Raih combo Double",
+    "combo_3": "Raih combo Triple",
+    "combo_4": "Raih combo Quad",
+    "pieces_30": "Tempatkan 30 potongan",
+    "pieces_60": "Tempatkan 60 potongan",
+    "pieces_100": "Tempatkan 100 potongan",
+    "section_title": "Misi Harian",
+    "all_done_title": "Semua misi selesai!",
+    "all_done_claimed": "Bonus peti +75 XP sudah didapat hari ini",
+    "all_done_pending": "Bonus peti akan masuk otomatis",
+    "bonus_chest": "Bonus peti +75 XP",
+    "completed_label": "Misi selesai"
+  },
+  "weekly": {
+    "section_title": "Tantangan Mingguan",
+    "bigger_reward": "Reward Lebih Besar",
+    "one_chance": "Satu kesempatan, berlaku seminggu",
+    "desc": "Berganti setiap Senin. Skor lebih tinggi, XP jauh lebih besar dari harian.",
+    "cta": "Mulai Tantangan Mingguan",
+    "changes_in": "Berganti dalam {{time}}",
+    "completed_this_week": "Minggu ini selesai · {{time}} lagi",
+    "target_title": "Target Skor",
+    "rank_bronze": "Perunggu",
+    "rank_silver": "Perak",
+    "rank_gold": "Emas",
+    "rank_platinum": "Platinum"
+  },
+  "theme": {
+    "section_title": "Tema",
+    "dark_aura": "Dark Aura",
+    "light_aura": "Light Aura",
+    "green_aura": "Green Aura",
+    "celestial_aura": "Celestial Aura",
+    "autosave_note": "Tema tersimpan otomatis di perangkat ini."
+  },
+  "player_card": {
+    "level": "LEVEL",
+    "xp": "XP",
+    "max_level": "Level Maksimum!",
+    "rank_progress_to": "Menuju {{rank}}"
+  },
+  "ranks": {
+    "bronze": "Perunggu",
+    "silver": "Perak",
+    "gold": "Emas",
+    "platinum": "Platinum",
+    "diamond": "Diamond",
+    "master": "Master",
+    "grandmaster": "Grandmaster"
+  },
+  "statistics": {
+    "page_title": "Statistik",
+    "games_recorded": "{{count}} permainan tercatat",
+    "best_record": "Rekor Terbaik",
+    "average": "Rata-rata",
+    "total_game": "Total Game",
+    "lines_cleared": "Baris Dibersihkan",
+    "score_trend": "Tren Skor (30 game terakhir)",
+    "win_streak": "Win Streak",
+    "streak_days_label": "Hari Beruntun",
+    "streak_record": "Rekor Hari",
+    "streak_session": "Game Beruntun",
+    "favorite_piece": "Piece Favorit",
+    "shape_label": "Bentuk #{{num}}",
+    "placed_count": "Ditempatkan {{placedCount}} kali",
+    "pieces_placed_total": "Total Potongan Diletakkan",
+    "recent_history": "Riwayat Terakhir",
+    "clear_all": "Hapus semua",
+    "clear_confirm": "Hapus semua riwayat statistik?",
+    "history_row": "{{pieces}} potongan · {{lines}} baris · {{dur}}"
+  },
+  "about": {
+    "page_title": "Tentang",
+    "tagline": "Isi. Sapu. Menang.",
+    "version_label": "Versi {{version}}",
+    "description": "Aura Square adalah game puzzle block premium, offline-first, dan tanpa login. Mainkan langsung — semua data tersimpan lokal di perangkatmu.",
+    "features_title": "Fitur",
+    "feature_zero_login": "Tanpa login, langsung main",
+    "feature_offline": "Offline-first — bisa di-install seperti aplikasi",
+    "feature_daily": "Tantangan Harian & Mingguan",
+    "feature_achievements": "{{count}} Pencapaian di 7 kategori",
+    "feature_missions": "Misi Harian dengan reward XP",
+    "feature_progression": "Sistem Level, Rank, Title & Badge",
+    "feature_themes": "4 tema visual: Dark, Light, Green, Celestial Aura",
+    "feature_a11y": "Dukungan kurangi animasi & getaran",
+    "credits_title": "Kredit",
+    "engine_credit": "Engine permainan terinspirasi dari",
+    "made_by": "Dibuat oleh",
+    "license": "Lisensi MIT",
+    "privacy_title": "Privasi",
+    "privacy_desc": "Aura Square tidak mengumpulkan data pribadi apapun. Semua statistik, pencapaian, dan preferensi tersimpan hanya di localStorage perangkatmu."
+  }
 }
