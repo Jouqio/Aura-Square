@@ -1,38 +1,38 @@
 {
   "compilerOptions": {
-    "target":                     "ES2022",
-    "lib":                        ["ES2022", "DOM", "DOM.Iterable"],
-    "module":                     "ESNext",
-    "moduleResolution":           "bundler",
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "resolveJsonModule":          true,
-    "isolatedModules":            true,
-    "moduleDetection":            "force",
-    "noEmit":                     true,
-    "jsx":                        "react-jsx",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
 
-    "strict":                     true,
-    "noUnusedLocals":             true,
-    "noUnusedParameters":         true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "skipLibCheck":               true,
+    "skipLibCheck": true,
 
     "baseUrl": ".",
     "paths": {
-      "@/*":        ["./src/*"],
-      "@engine/*":  ["./src/engine/*"],
-      "@ui/*":      ["./src/components/ui/*"],
-      "@layout/*":  ["./src/components/layout/*"],
-      "@pages/*":   ["./src/pages/*"],
-      "@store/*":   ["./src/store/*"],
-      "@hooks/*":   ["./src/hooks/*"],
-      "@services/*":["./src/services/*"],
-      "@types/*":   ["./src/types/*"],
-      "@utils/*":   ["./src/utils/*"],
-      "@i18n/*":    ["./src/i18n/*"]
+      "@/*": ["./src/*"],
+      "@engine/*": ["./src/engine/*"],
+      "@ui/*": ["./src/components/ui/*"],
+      "@layout/*": ["./src/components/layout/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@store/*": ["./src/store/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@services/*": ["./src/services/*"],
+      "@types/*": ["./src/types/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@i18n/*": ["./src/i18n/*"]
     }
   },
-  "include":  ["src", "tests"],
-  "exclude":  ["node_modules", "dist"]
+  "include": ["src", "tests"],
+  "exclude": ["node_modules", "dist"]
 }
