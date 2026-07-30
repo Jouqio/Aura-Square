@@ -17,11 +17,13 @@
 [![Tests](https://img.shields.io/badge/Tests-114%2F114%20passing-brightgreen)](/)
 [![i18n](https://img.shields.io/badge/i18n-ID%20%2F%20EN-blue)](/)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?logo=vercel&logoColor=white)](https://aura-square.vercel.app)
+[![License](https://img.shields.io/badge/License-Custom%20(Permission%20Required)-orange)](./LICENSE)
 
 Game puzzle block premium — mainkan langsung di browser, tanpa akun, tanpa server. Semua progress tersimpan di perangkatmu sendiri.
 
 <br/>
 
+[Main Sekarang](https://aura-square.vercel.app) •
 [Cuplikan Layar](#-cuplikan-layar) •
 [Fitur](#-fitur-utama) •
 [Instalasi](#-cara-jalankan) •
@@ -34,7 +36,7 @@ Game puzzle block premium — mainkan langsung di browser, tanpa akun, tanpa ser
 
 ---
 
-## 📱 Cuplikan Layar
+## Cuplikan Layar
 
 <div align="center">
 
@@ -86,22 +88,31 @@ Game puzzle block premium — mainkan langsung di browser, tanpa akun, tanpa ser
 ## Tentang
 
 Aura Square adalah game puzzle block 8×8 — drag & drop piece, sapu baris, kejar skor tertinggi. Dibangun sebagai Progressive Web App yang sepenuhnya *offline-first*: tanpa login, tanpa server wajib, semua progres tersimpan di perangkatmu sendiri.
-**Coba sekarang:** [aura-square.vercel.app](https://aura-square.vercel.app)
+
+🔗 **Coba sekarang:** [aura-square.vercel.app](https://aura-square.vercel.app)
 
 <br/>
 
 ## Mulai
 
 ### 🌐 Main langsung (tanpa install)
-Buka [aura-square.vercel.app](https://aura-square.vercel.app) — langsung main dari browser.
 
-### 💻 Jalankan secara lokal
-\`\`\`bash
+Buka **[aura-square.vercel.app](https://aura-square.vercel.app)** — langsung main dari browser, bisa juga di-install sebagai PWA ke home screen HP/desktop kamu.
+
+### Jalankan secara lokal
+
+```bash
 npm install
 npm run dev
-\`\`\`
+```
 
 Buka `http://localhost:5173` dan langsung main.
+
+```bash
+npm run build     # build production + PWA
+npm run test      # 114 unit test
+npm run ci        # typecheck + lint + test
+```
 
 <br/>
 
@@ -138,6 +149,16 @@ Klasemen online bersifat opsional dan hanya aktif jika `.env.local` dikonfiguras
 
 <br/>
 
+## Deployment
+
+Aura Square di-deploy sebagai **Progressive Web App (PWA)** melalui **Vercel**, dengan continuous deployment — setiap push ke branch `main` otomatis ter-deploy ulang.
+
+- 🌐 **Live:** [aura-square.vercel.app](https://aura-square.vercel.app)
+- ⚙️ **Platform:** Vercel
+- 🔁 **CI/CD:** Auto-deploy dari GitHub (`main` branch)
+
+<br/>
+
 ## Build ke Native
 
 Project sudah siap dibungkus ke iOS/Android via Capacitor:
@@ -151,6 +172,15 @@ npm run cap:open:ios      # atau cap:open:android
 
 <br/>
 
+## Lisensi
+
+Project ini bersifat **source-available**, bukan open-source sepenuhnya. Kamu bebas **melihat dan mempelajari** kode-nya untuk referensi/edukasi. Namun, untuk **menggunakan, memodifikasi, atau mendistribusikan ulang** (termasuk untuk tujuan komersial), wajib mendapat **izin tertulis** dari pemilik terlebih dahulu.
+
+ Selengkapnya: lihat file [`LICENSE`](./LICENSE)
+ Untuk meminta izin, hubungi: [github.com/Jouqio](https://github.com/Jouqio)
+
+<br/>
+
 ---
 
 <div align="center">
@@ -161,5 +191,7 @@ Dibuat oleh **Syauqi Nuzul Abdi**
 <br/>
 
 *Aura Square — Game puzzle block premium, installable, offline-first, tanpa login.*
+
+**[Main Sekarang di aura-square.vercel.app](https://aura-square.vercel.app)**
 
 </div>
