@@ -1,21 +1,84 @@
 <div align="center">
 
-<img src="resources/icon.png" width="90" alt="Aura Square" />
+<img src="screenshots/splash.png" width="220" alt="Aura Square" />
 
-# Aura Square
+# 🟣 Aura Square
 
-**Isi. Sapu. Menang.**
+### *"Isi. Sapu. Menang."*
 
-Game puzzle block premium — tanpa akun, tanpa server, 100% offline.
+**Owner:** Syauqi Nuzul Abdi | **Versi:** 3.0.0 | **Mode:** Zero Login · Offline-First · PWA
 
 <br/>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![PWA](https://img.shields.io/badge/PWA-Installable-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
-![Tests](https://img.shields.io/badge/Tests-114%20passing-4DCC7A?style=for-the-badge)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![React 18](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black)](https://reactjs.org)
+[![No Login](https://img.shields.io/badge/Login-Not%20Required-4DCC7A)](/)
+[![PWA](https://img.shields.io/badge/PWA-Installable-5A0FC8)](https://web.dev/pwa)
+[![Tests](https://img.shields.io/badge/Tests-114%2F114%20passing-brightgreen)](/)
+[![i18n](https://img.shields.io/badge/i18n-ID%20%2F%20EN-blue)](/)
+
+Game puzzle block premium — mainkan langsung di browser, tanpa akun, tanpa server. Semua progress tersimpan di perangkatmu sendiri.
+
+<br/>
+
+[Cuplikan Layar](#-cuplikan-layar) •
+[Fitur](#-fitur-utama) •
+[Instalasi](#-cara-jalankan) •
+[Struktur](#-struktur-proyek) •
+[Storage](#-data-storage-semua-lokal-tanpa-server) •
+[Testing](#-testing--kualitas) •
+[Native Build](#-membungkus-ke-native-capacitor)
 
 </div>
+
+---
+
+## 📱 Cuplikan Layar
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="screenshots/home.png" width="100%" alt="Beranda" /><br/>
+<sub><b>Beranda</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/gameplay.png" width="100%" alt="Gameplay" /><br/>
+<sub><b>Gameplay</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/daily.png" width="100%" alt="Tantangan Harian" /><br/>
+<sub><b>Tantangan Harian</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/achievements.png" width="100%" alt="Pencapaian" /><br/>
+<sub><b>Pencapaian</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="25%">
+<img src="screenshots/statistics.png" width="100%" alt="Statistik" /><br/>
+<sub><b>Statistik</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/leaderboard.png" width="100%" alt="Klasemen" /><br/>
+<sub><b>Klasemen</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/settings.png" width="100%" alt="Pengaturan" /><br/>
+<sub><b>Pengaturan</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/splash.png" width="100%" alt="Layar Mulai" /><br/>
+<sub><b>Layar Mulai</b></sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
 
 <br/>
 
@@ -28,7 +91,6 @@ Aura Square adalah game puzzle block 8×8 — drag & drop piece, sapu baris, kej
 ## Mulai
 
 ```bash
-cd aura-square
 npm install
 npm run dev
 ```
@@ -96,6 +158,8 @@ npm run cap:open:ios      # atau cap:open:android
 Dibuat oleh **Syauqi Nuzul Abdi**
 [![GitHub](https://img.shields.io/badge/GitHub-Jouqio-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jouqio)
 
-*Engine terinspirasi dari [fill-the-square](https://github.com/ryanbalieiro/fill-the-square)*
+<br/>
+
+*Aura Square — Game puzzle block premium, installable, offline-first, tanpa login.*
 
 </div>
