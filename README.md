@@ -16,6 +16,7 @@
 [![PWA](https://img.shields.io/badge/PWA-Installable-5A0FC8)](https://web.dev/pwa)
 [![Tests](https://img.shields.io/badge/Tests-114%2F114%20passing-brightgreen)](/)
 [![i18n](https://img.shields.io/badge/i18n-ID%20%2F%20EN-blue)](/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?logo=vercel&logoColor=white)](https://aura-square.vercel.app)
 
 Game puzzle block premium — mainkan langsung di browser, tanpa akun, tanpa server. Semua progress tersimpan di perangkatmu sendiri.
 
@@ -85,23 +86,22 @@ Game puzzle block premium — mainkan langsung di browser, tanpa akun, tanpa ser
 ## Tentang
 
 Aura Square adalah game puzzle block 8×8 — drag & drop piece, sapu baris, kejar skor tertinggi. Dibangun sebagai Progressive Web App yang sepenuhnya *offline-first*: tanpa login, tanpa server wajib, semua progres tersimpan di perangkatmu sendiri.
+**Coba sekarang:** [aura-square.vercel.app](https://aura-square.vercel.app)
 
 <br/>
 
 ## Mulai
 
-```bash
+### 🌐 Main langsung (tanpa install)
+Buka [aura-square.vercel.app](https://aura-square.vercel.app) — langsung main dari browser.
+
+### 💻 Jalankan secara lokal
+\`\`\`bash
 npm install
 npm run dev
-```
+\`\`\`
 
 Buka `http://localhost:5173` dan langsung main.
-
-```bash
-npm run build     # build production + PWA
-npm run test      # 114 unit test
-npm run ci        # typecheck + lint + test
-```
 
 <br/>
 
