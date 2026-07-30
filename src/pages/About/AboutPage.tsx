@@ -27,7 +27,7 @@ export default function AboutPage(): React.JSX.Element {
     }),
     t('about.feature_missions',    { defaultValue: 'Misi Harian dengan reward XP' }),
     t('about.feature_progression', { defaultValue: 'Sistem Level, Rank, Title & Badge' }),
-    t('about.feature_themes',      { defaultValue: '3 tema visual: Dark, Light, Green Aura' }),
+    t('about.feature_themes',      { defaultValue: '4 tema visual: Dark, Light, Green, Celestial Aura' }),
     t('about.feature_a11y',        { defaultValue: 'Dukungan kurangi animasi & getaran' }),
   ];
 
