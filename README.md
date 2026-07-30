@@ -127,7 +127,7 @@ npm run ci        # typecheck + lint + test
 
 <br/>
 
-## Struktur Singkat
+## Struktur Proyek
 
 ```
 aura-square/
