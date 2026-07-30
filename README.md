@@ -131,48 +131,53 @@ npm run ci        # typecheck + lint + test
 
 ```
 aura-square/
-├── public/
-│   ├── icons/
+├── public/                    → aset statis publik
+│   ├── icons/                 → ikon aplikasi (berbagai ukuran)
 │   ├── favicon.svg
 │   ├── og-image-source.svg
-│   └── og-image.png
-├── resources/
-│   ├── icon.png
-│   ├── splash-dark.png
-│   ├── splash-source.svg
-│   └── splash.png
-├── screenshots/
+│   └── og-image.png           → gambar preview untuk social share
+├── resources/                 → aset untuk build native (Capacitor)
+│   ├── icon.png                → ikon app native
+│   ├── splash.png               → splash screen
+│   ├── splash-dark.png          → splash screen mode gelap
+│   └── splash-source.svg        → source vector splash screen
+├── screenshots/                → screenshot untuk README
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── constants/
-│   ├── engine/
-│   ├── hooks/
-│   ├── i18n/
-│   ├── pages/
-│   ├── providers/
-│   ├── router/
-│   ├── services/
-│   ├── store/
-│   ├── types/
-│   ├── utils/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── vite-env.d.ts
+│   ├── assets/                  → gambar, font, dan aset statis internal
+│   ├── components/              → komponen UI reusable
+│   ├── constants/                → nilai konstan aplikasi (config, enum, dsb.)
+│   ├── engine/                   → logika game murni, terpisah dari UI (114 unit test)
+│   ├── hooks/                    → custom React hooks
+│   │                                (drag-drop, achievement, PWA update, dll.)
+│   ├── i18n/                     → lokalisasi
+│   │   ├── id.json                → 428 key Bahasa Indonesia
+│   │   └── en.json                → 428 key English (100% sinkron)
+│   ├── pages/                    → halaman aplikasi
+│   │                                (Home, Game, Daily, Achievements, Profile, dst.)
+│   ├── providers/                 → context providers (theme, i18n, auth, dsb.)
+│   ├── router/                    → konfigurasi routing aplikasi
+│   ├── services/                  → integrasi & layanan eksternal
+│   │                                (audio, backup, share card, firestore — opsional)
+│   ├── store/                     → 8 Zustand store, persisted ke localStorage
+│   ├── types/                     → TypeScript type & interface definitions
+│   ├── utils/                     → fungsi utilitas/helper murni
+│   ├── App.tsx                    → root component aplikasi
+│   ├── main.tsx                   → entry point aplikasi (render ke DOM)
+│   └── vite-env.d.ts              → type definitions bawaan Vite
 ├── tests/
-│   └── unit/
+│   └── unit/                     → unit test (114 test, dijalankan via Vitest)
 ├── .gitignore
-├── LICENSE
+├── LICENSE                       → lisensi custom (source-available)
 ├── README.md
-├── capacitor.config.ts
-├── index.html
-├── package-lock.json
+├── capacitor.config.ts           → konfigurasi build native iOS/Android
+├── index.html                    → HTML entry point
 ├── package.json
-├── postcss.config.js
-├── tailwind.config.ts
-├── tsconfig.json
-├── vite.config.ts
-└── vitest.config.ts
+├── package-lock.json
+├── postcss.config.js             → konfigurasi PostCSS (untuk Tailwind)
+├── tailwind.config.ts            → konfigurasi Tailwind CSS
+├── tsconfig.json                 → konfigurasi compiler TypeScript
+├── vite.config.ts                → konfigurasi build tool Vite
+└── vitest.config.ts              → konfigurasi Vitest untuk unit testing
 ```
 
 <br/>
