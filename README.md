@@ -130,13 +130,49 @@ npm run ci        # typecheck + lint + test
 ## Struktur Singkat
 
 ```
-src/
-├── engine/      → logika game murni (114 test)
-├── store/       → 8 Zustand store, persisted ke localStorage
-├── services/    → audio, backup, share card, firestore (opsional)
-├── hooks/       → drag-drop, achievement, PWA update, dsb.
-├── pages/       → Home, Game, Daily, Achievements, Profile, dst.
-└── i18n/        → id.json / en.json (428 key, 100% sinkron)
+aura-square/
+├── public/
+│   ├── icons/
+│   ├── favicon.svg
+│   ├── og-image-source.svg
+│   └── og-image.png
+├── resources/
+│   ├── icon.png
+│   ├── splash-dark.png
+│   ├── splash-source.svg
+│   └── splash.png
+├── screenshots/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── constants/
+│   ├── engine/
+│   ├── hooks/
+│   ├── i18n/
+│   ├── pages/
+│   ├── providers/
+│   ├── router/
+│   ├── services/
+│   ├── store/
+│   ├── types/
+│   ├── utils/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── tests/
+│   └── unit/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── capacitor.config.ts
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+├── vite.config.ts
+└── vitest.config.ts
 ```
 
 <br/>
@@ -146,16 +182,6 @@ src/
 Semua progres tersimpan lokal di `localStorage` perangkatmu — tidak ada akun, tidak ada tracking. Ingin backup? Buka **Pengaturan → Data** untuk ekspor/impor progres sebagai file JSON.
 
 Klasemen online bersifat opsional dan hanya aktif jika `.env.local` dikonfigurasi dengan Firebase project sendiri.
-
-<br/>
-
-## Deployment
-
-Aura Square di-deploy sebagai **Progressive Web App (PWA)** melalui **Vercel**, dengan continuous deployment — setiap push ke branch `main` otomatis ter-deploy ulang.
-
-- 🌐 **Live:** [aura-square.vercel.app](https://aura-square.vercel.app)
-- ⚙️ **Platform:** Vercel
-- 🔁 **CI/CD:** Auto-deploy dari GitHub (`main` branch)
 
 <br/>
 
